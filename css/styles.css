@@ -157,11 +157,11 @@ img {
 .addres-link {
   display: flex;
   align-items: center;
+  transition: color var(--animation);
 }
 
 .site-nav {
   display: flex;
-
   margin-left: 93px;
 }
 
@@ -257,6 +257,9 @@ img {
 }
 
 .we-doo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 370px;
   height: 70px;
@@ -273,7 +276,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 27px;
 }
 .section-title,
 .section-title a {
